@@ -2,11 +2,13 @@ package com.example.springbasicstraining.labs.step2_jpa_smoketest.startup;
 
 import com.example.springbasicstraining.labs.step2_jpa_smoketest.repository.TodoRepository;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 // @Component + CommandLineRunner
 //클래스 용도 : DB 스모크 테스트용
 @Component
+@Profile("step2")
 public class StartupRunner implements CommandLineRunner {
     //CommandLineRunner는 스프링이 앱을 다 띄운 후 바로 실행할 코드를 쓰고 싶을때.
     //스프링이 약속한 후처리 훅 인터페이스 구현해야 됨.

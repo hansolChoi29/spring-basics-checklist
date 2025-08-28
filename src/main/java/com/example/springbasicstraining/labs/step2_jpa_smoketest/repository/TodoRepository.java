@@ -1,10 +1,12 @@
 package com.example.springbasicstraining.labs.step2_jpa_smoketest.repository;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 // extends JpaRepository
 // 엔티티에 대한 CRUD 메서드를 공짜로 제공하는 DB접근 계층임
 //한마디로 레포는 DB CRUD도우미 인터페이스.
+@Profile("step2")
 public interface TodoRepository extends JpaRepository<com.example.springbasicstraining.labs.step2_jpa_smoketest.domain.Todo, Long> {
     // 넣을 수 있는 것들
     //1. 메서드 이름 규칙으로 쿼리 생성
