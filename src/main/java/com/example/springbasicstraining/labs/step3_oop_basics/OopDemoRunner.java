@@ -1,4 +1,4 @@
-package com.example.springbasicstraining.oop;
+package com.example.springbasicstraining.labs.step3_oop_basics;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

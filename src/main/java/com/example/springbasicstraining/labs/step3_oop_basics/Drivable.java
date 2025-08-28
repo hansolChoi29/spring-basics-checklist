@@ -1,4 +1,4 @@
-package com.example.springbasicstraining.oop;
+package com.example.springbasicstraining.labs.step3_oop_basics;
 
 //인터페이스
 public interface Drivable {

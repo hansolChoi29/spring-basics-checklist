@@ -1,4 +1,4 @@
-package com.example.springbasicstraining.oop;
+package com.example.springbasicstraining.labs.step3_oop_basics;
 //추상클래스(부모)
 public abstract class Vehicle {
     private final String model;

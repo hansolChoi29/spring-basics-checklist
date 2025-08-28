@@ -1,4 +1,4 @@
-package com.example.springbasicstraining.oop;
+package com.example.springbasicstraining.labs.step3_oop_basics;
 // 자식 클래스(상속+인터페이스 구현)
 public class Car extends Vehicle implements Drivable {
 

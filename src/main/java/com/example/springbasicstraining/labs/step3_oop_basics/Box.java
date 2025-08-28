@@ -1,4 +1,4 @@
-package com.example.springbasicstraining.oop;
+package com.example.springbasicstraining.labs.step3_oop_basics;
 
 // 제네릭 클래스
 //어떤 타입이든 담을 수 있는 상자
