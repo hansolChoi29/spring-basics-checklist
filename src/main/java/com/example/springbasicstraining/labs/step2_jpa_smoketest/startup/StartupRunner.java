@@ -1,7 +1,6 @@
-package com.example.springbasicstraining.startup;
+package com.example.springbasicstraining.labs.step2_jpa_smoketest.startup;
 
-import com.example.springbasicstraining.domain.Todo;
-import com.example.springbasicstraining.repository.TodoRepository;
+import com.example.springbasicstraining.labs.step2_jpa_smoketest.repository.TodoRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -19,7 +18,7 @@ public class StartupRunner implements CommandLineRunner {
     }
     @Override
     public void run(String... args){
-        todoRepository.save(new Todo("첫 번째 할 일"));
+        todoRepository.save(new com.example.springbasicstraining.labs.step2_jpa_smoketest.domain.Todo("첫 번째 할 일"));
         System.out.println("투두 카운트: "+todoRepository.count());
     }
 }

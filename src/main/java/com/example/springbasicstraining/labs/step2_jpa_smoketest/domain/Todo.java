@@ -1,4 +1,4 @@
-package com.example.springbasicstraining.domain;
+package com.example.springbasicstraining.labs.step2_jpa_smoketest.domain;
 // @Entity
 // DDD 철학에서는 entity라는 기술적 분류 보단, 도메인(업무개념)을 기준으로 묶는 걸 권장하기 때문에 entity패키지 안만듦
 // 즉, 엔티티는 기술적으로 엔티티지만, 더 중요한 건 할 일 이라는 도메인객체라는 점.
