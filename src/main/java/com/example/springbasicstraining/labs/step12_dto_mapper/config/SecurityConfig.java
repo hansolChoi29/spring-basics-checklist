@@ -1,4 +1,4 @@
-package com.example.springbasicstraining.labs.step8_controller_crud.config;
+package com.example.springbasicstraining.labs.step12_dto_mapper.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
